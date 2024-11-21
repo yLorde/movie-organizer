@@ -1,0 +1,25 @@
+body {
+    background-color: #202020;
+    color: white;
+}
+
+nav > div > h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#filme-popup {
+    background-color: #121212;
+    color: white;
+    width: 42dvh;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 2rem;
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+b {
+    text-transform: uppercase;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movies</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <script src="scripts/script.js"></script>
+    <script src="scripts/database.js"></script>
+    <script src="scripts/filmes.js"></script>
+    <script src="scripts/render.js"></script>
+    <script src="scripts/modelo.js"></script>
+    <script src="scripts/buscarFilme.js"></script>
+    <script src="scripts/searchParam.js"></script>
+</head>
+<body onload="main()">
+    <header>
+        <nav>
+            <div>
+                <h1 onclick="location.reload()">Minha lista de filmes</h1>
+            </div>
+            <div>
+                <input id="input-titulo" placeholder="Procurar título" >
+                <button onclick="buscarFilme()">Buscar</button>
+            </div>
+            <br />
+        </nav>
+    </header>
+    <main>
+        <div class="list" id="list"></div>
+    </main>
+</body>
+</html>
