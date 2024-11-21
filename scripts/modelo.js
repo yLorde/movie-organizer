@@ -30,5 +30,6 @@ const genero = {
 const status = {
     0: 'Nunca Assistido',
     1: 'Já assistido',
-    2: 'Estou assistindo'
+    2: 'Estou assistindo',
+    3: 'Abandonado'
 }

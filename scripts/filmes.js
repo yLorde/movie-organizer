@@ -334,5 +334,45 @@ const filmes = [
         nota: 5,
         stream: 1,
         tipo: 2
-    }
+    },
+    {
+        nome: 'Doctor Who',
+        genero: 5,
+        status: 3,
+        nota: 10,
+        stream: 0,
+        tipo: 2
+    },
+    {
+        nome: 'Intocáveis',
+        genero: 2,
+        status: 0,
+        nota: 0,
+        stream: 0,
+        tipo: 1,
+    },
+    {
+        nome: 'Um sonho de liberdade',
+        genero: 0,
+        status: 0,
+        nota:0,
+        stream: 0,
+        tipo: 1
+    },
+    {
+        nome: 'Mesmo se nada der certo',
+        genero: 0,
+        status: 0,
+        nota: 0,
+        stream: 0,
+        tipo: 1
+    },
+    {
+        nome: 'Efeito borboleta',
+        genero: 5,
+        status: 1,
+        nota: 9,
+        stream: 0,
+        tipo: 1
+    },
 ]
