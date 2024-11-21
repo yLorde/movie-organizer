@@ -9,6 +9,7 @@ function buscarFilme() {
         // list.innerHTML = `<div>Resultados: ${resultado.length}</div><br/>`
         resultado.map((filme) => {
             render(filme);
+            classificar(filme);
         })
     } else {
         list.innerHTML = `
