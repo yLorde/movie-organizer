@@ -23,3 +23,7 @@ nav > div > h1, h2, h3, h4 {
 b {
     text-transform: uppercase;
 }
+
+input {
+    color: black;
+}
