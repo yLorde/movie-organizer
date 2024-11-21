@@ -13,15 +13,13 @@ function buscarFilme() {
     } else {
         list.innerHTML = ``;
         list.innerHTML = `
-        <div class="flex items-center justify-center">
-    <div
-    class="flex flex-col gap-2 dark:text-black max-w-md w-full bg-gray-200 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150"
-    >
-    <div class="flex flex-row justify-between w-full">
-        <h3 class="text-xl font-bold">Nenhum título encontrado com esse nome</h3>
+<div class="flex text-center items-center justify-center">
+    <div class="flex flex-col gap-2 dark:text-white max-w-md w-full bg-gray-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
+        <div class="flex-row justify-between w-full">
+            <h3 class="text-xl font-bold">Nenhum título foi encontrado</h3>
+        </div>
     </div>
-    </div>
-</div>  
+</div>
         `
     }
 };
