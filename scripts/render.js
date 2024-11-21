@@ -18,7 +18,7 @@ function render(filme) {
     list.innerHTML += `
 <div class="flex items-center justify-center">
     <div
-    class="flex flex-col gap-2 dark:text-black max-w-md w-full bg-gray-200 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150"
+    class="flex flex-col gap-2 dark:text-white max-w-md w-full bg-gray-800 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150"
     >
     <div class="flex flex-row justify-between w-full">
         <div class="flex flex-row justify-between w-full">
@@ -91,6 +91,6 @@ function render(filme) {
         <b>Tipo:</b> ${tipo[filme.tipo]}
     </div>
     </div>
-</div>
+    </div>
     `
 }
