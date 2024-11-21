@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Movies</title>
+    <title>Movie Organizer</title>
 
     <script src="scripts/script.js"></script>
     <script src="scripts/database.js"></script>
@@ -17,7 +17,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        body { background-color: #121212; }
+        body {
+            background-color: #121212;
+        }
     </style>
 </head>
 
@@ -25,6 +27,15 @@
     <header>
         <nav>
             <div>
+                <div onclick="location.reload()" class="flex text-center items-center justify-center">
+                    <div
+                        class="flex flex-col gap-2 dark:text-white w-full max-w-[280px] bg-gray-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
+                        <div class="flex-row justify-between w-full">
+                            <h3 class="text-xl font-bold">Movie Organizer</h3>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="flex items-center justify-center p-10">
                     <div class="rounded-lg bg-gray-900 p-5">
                         <div class="flex">
@@ -40,14 +51,13 @@
                             <input type="text"
                                 class="w-full max-w-[200px] bg-gray-800 pl-2 text-white font-semibold outline-0"
                                 placeholder="Buscar título" id="input-titulo">
-                                
+
                             <input type="button" value="Search" onclick="buscarFilme()"
                                 class="bg-gray-800 p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-gray-700 transition-colors">
                         </div>
                     </div>
                 </div>
             </div>
-            <br />
         </nav>
     </header>
     <main>
