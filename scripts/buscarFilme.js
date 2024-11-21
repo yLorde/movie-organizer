@@ -6,7 +6,7 @@ function buscarFilme() {
 
     if (resultado.length > 0) {
         list.innerHTML = ``;
-        list.innerHTML = `<div>Resultados: ${resultado.length}</div><br/>`
+        // list.innerHTML = `<div>Resultados: ${resultado.length}</div><br/>`
         resultado.map((filme) => {
             render(filme);
         })
