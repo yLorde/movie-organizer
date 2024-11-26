@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Organizer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="mt-4 flex max-w-md w-full flex-col bg-gray-900 rounded-lg p-4 shadow-sm">
+        <h2 class="text-white font-bold text-lg">Shipping Label Address Form</h2>
+
+        <div class="mt-4">
+            <label class="text-white" for="name">Name</label>
+            <input placeholder="Your name" class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1"
+                type="text">
+        </div>
+
+        <div class="mt-4">
+            <label class="text-white" for="address">Address</label>
+            <textarea placeholder="Your address"
+                class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="address"></textarea>
+        </div>
+
+        <div class="mt-4 flex flex-row space-x-2">
+            <div class="flex-1">
+                <label class="text-white" for="city">City</label>
+                <input placeholder="Your city"
+                    class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="city" type="text">
+            </div>
+
+            <div class="flex-1">
+                <label class="text-white" for="state">State</label>
+                <input placeholder="Your state"
+                    class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="state" type="text">
+            </div>
+        </div>
+
+        <div class="mt-4 flex flex-row space-x-2">
+            <div class="flex-1">
+                <label class="text-white" for="zip">ZIP</label>
+                <input placeholder="Your ZIP code"
+                    class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="zip" type="text">
+            </div>
+
+            <div class="flex flex-row space-x-2">
+                <div class="flex-1">
+                    <label class="text-white" for="country">Country</label>
+                    <select class="w-full bg-gray-800 rounded-md border-gray-700 text-white px-2 py-1" id="country">
+                        <option value="">Select a country</option>
+
+                        <optgroup label="Africa">
+                            <option value="AF">Afghanistan</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AO">Angola</option>
+                            ...
+                            <option value="ZW">Zimbabwe</option>
+                        </optgroup>
+
+                        <optgroup label="Asia">
+                            <option value="AM">Armenia</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BH">Bahrain</option>
+                            ...
+                            <option value="YE">Yemen</option>
+                        </optgroup>
+
+                        <optgroup label="South America">
+                            <option value="AR">Argentina</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="BR">Brazil</option>
+                            ...
+                            <option value="VE">Venezuela</option>
+                        </optgroup>
+
+                        ...
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 flex justify-end">
+            <button
+                class="bg-white text-black rounded-md px-4 py-1 hover:bg-blue-500 hover:text-white transition-all duration-200"
+                type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- <div class="flex items-center justify-center p-10">
+    <button
+        onclick="addFilme()"
+        class="rounded-lg relative w-40 h-10 cursor-pointer flex items-center border border-gray-900 bg-gray-900 group hover:bg-gray-900 active:bg-gray-900 active:border-gray-900">
+        <span
+            class="text-white font-semibold ml-8 transform group-hover:translate-x-20 transition-all duration-300">Novo</span>
+        <span
+            class="absolute right-0 h-full w-10 rounded-lg bg-gray-900 flex items-center justify-center transform group-hover:translate-x-0 group-hover:w-full transition-all duration-300">
+            <svg class="svg w-8 text-white" fill="none" height="24" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                width="24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="12" x2="12" y1="5" y2="19"></line>
+                <line x1="5" x2="19" y1="12" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+</div> -->
